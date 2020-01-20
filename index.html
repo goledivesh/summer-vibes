@@ -11,6 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
 </head>
 
@@ -26,7 +27,7 @@
                         <div class="navbar-wrap">
                             <div class="navbar-container">
                                 <div class="toggle-wrap">
-                                    <div class="toggle-container d-flex align-items-center justify-content-end">
+                                    <div class="toggle-container d-inline-flex align-items-center justify-content-end">
                                         <div class="hamburger">
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
@@ -45,16 +46,16 @@
             <!-- Search View -->
             <div class="search-view-wrap">
                 <div class="search-view-container">
-                   <div class="close-search-box">
-                       <span></span>
-                       <span></span>
-                   </div>
+                    <div class="close-search-box">
+                        <span></span>
+                        <span></span>
+                    </div>
                     <div class="search-header">
                         <h1 class="search-title">Search Your Destination</h1>
                         <p class="search-para">Everything you need, to plan your dream Destination!</p>
                         <span>
                             <input type="search" class="search-input form-control" placeholder="Search your destination">
-                            <button type="button" class="search-btn" name="search">Search</button>
+                            <button type="button" class="search-btn" name="search"> <i class="fa fa-search" aria-hidden="true"></i> <span>Search</span></button>
                         </span>
                     </div>
                     <div class="search-body">
@@ -405,18 +406,17 @@
                             <div class="tab-content-wrap">
                                 <div class="tab-nav">
                                     <ul class="d-flex" class="tabs-ul" id="tabs">
-                                        <li class="tab-li" id="tab1"><a href="#">Italy</a></li>
-                                        <li class="tab-li" id="tab2"><a href="#">Greece</a></li>
-                                        <li class="tab-li" id="tab3"><a href="#">Spain</a></li>
-                                        <li class="tab-li" id="tab4"><a href="#">Croatia</a></li>
-                                        <li class="tab-li" id="tab5"><a href="#">Portugal</a></li>
-                                        <li class="tab-li" id="tab6"><a href="#">France</a></li>
-                                        <li class="tab-li" id="tab7"><a href="#">Monaco</a></li>
-                                        <div class="tabs-slider"></div>
+                                        <li class="tab-li active" data-target="tab1"><a href="#">Italy</a></li>
+                                        <li class="tab-li" data-target="tab2"><a href="#">Greece</a></li>
+                                        <li class="tab-li" data-target="tab3"><a href="#">Spain</a></li>
+                                        <li class="tab-li" data-target="tab4"><a href="#">Croatia</a></li>
+                                        <li class="tab-li" data-target="tab5"><a href="#">Portugal</a></li>
+                                        <li class="tab-li" data-target="tab6"><a href="#">France</a></li>
+                                        <li class="tab-li" data-target="tab7"><a href="#">Monaco</a></li>
                                     </ul>
                                 </div>
                                 <div class="tab-container">
-                                    <div class="tab-content d-flex" id="tab1C">
+                                    <div class="tab-content active d-flex" id="tab1">
                                         <div class="destination-list">
                                             <h4>Rome</h4>
                                             <p>is the capital city and a special comune of Italy. Rome also serves as the capital of the Lazio region.</p>
@@ -450,7 +450,7 @@
                                             <p>is a city and comune in southern Italy, the capital of the region of Molise and of the province of Campobasso.</p>
                                         </div>
                                     </div>
-                                    <div class="tab-content d-flex" id="tab2C">
+                                    <div class="tab-content d-flex" id="tab2">
                                         <div class="destination-list">
                                             <h4>Naples</h4>
                                             <p>is the regional capital of Campania and the third-largest city of Italy after Rome and Milan.</p>
@@ -484,7 +484,7 @@
                                             <p>is a city and comune in southern Italy, the capital of the region of Molise and of the province of Campobasso.</p>
                                         </div>
                                     </div>
-                                    <div class="tab-content d-flex" id="tab3C">
+                                    <div class="tab-content d-flex" id="tab3">
                                         <div class="destination-list">
                                             <h4>Bologna</h4>
                                             <p>is the capital and largest city of the Emilia-Romagna region in Northern Italy.</p>
@@ -518,7 +518,7 @@
                                             <p>is a city and comune in southern Italy, the capital of the region of Molise and of the province of Campobasso.</p>
                                         </div>
                                     </div>
-                                    <div class="tab-content d-flex" id="tab4C">
+                                    <div class="tab-content d-flex" id="tab4">
                                         <div class="destination-list">
                                             <h4>Turin</h4>
                                             <p>is a city and an important business and cultural centre in northern Italy.</p>
@@ -553,7 +553,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="tab-content d-flex" id="tab5C">
+                                    <div class="tab-content d-flex" id="tab5">
                                         <div class="destination-list">
                                             <h4>Naples</h4>
                                             <p>is the regional capital of Campania and the third-largest city of Italy after Rome and Milan.</p>
@@ -587,7 +587,7 @@
                                             <p>is a city and comune in Central Italy, both the capital city of the Abruzzo region and of the Province of L'Aquila.</p>
                                         </div>
                                     </div>
-                                    <div class="tab-content d-flex" id="tab6C">
+                                    <div class="tab-content d-flex" id="tab6">
                                         <div class="destination-list">
                                             <h4>Bologna</h4>
                                             <p>is the capital and largest city of the Emilia-Romagna region in Northern Italy.</p>
@@ -621,7 +621,7 @@
                                             <p>is a city and comune in southern Italy, the capital of the region of Molise and of the province of Campobasso.</p>
                                         </div>
                                     </div>
-                                    <div class="tab-content d-flex" id="tab7C">
+                                    <div class="tab-content d-flex" id="tab7">
                                         <div class="destination-list">
                                             <h4>Rome</h4>
                                             <p>is the capital city and a special comune of Italy. Rome also serves as the capital of the Lazio region.</p>
@@ -661,31 +661,31 @@
                                 <div class="instagram-pics-wrap d-flex">
                                     <div class="instagram-pics-cont">
                                         <img src="img/thumbnail-img-4.jpeg" alt="insta image">
-                                        <div class="instagram-link">
+                                        <div class="instagram-link d-flex align-items-center justify-content-center">
                                             <a href="#">Instagram</a>
                                         </div>
                                     </div>
                                     <div class="instagram-pics-cont">
                                         <img src="img/thumbnail-img-3.jpeg" alt="insta image">
-                                        <div class="instagram-link">
+                                        <div class="instagram-link d-flex align-items-center justify-content-center">
                                             <a href="#">Instagram</a>
                                         </div>
                                     </div>
                                     <div class="instagram-pics-cont">
                                         <img src="img/thumbnail-img-2.jpeg" alt="insta image">
-                                        <div class="instagram-link">
+                                        <div class="instagram-link d-flex align-items-center justify-content-center">
                                             <a href="#">Instagram</a>
                                         </div>
                                     </div>
                                     <div class="instagram-pics-cont">
                                         <img src="img/thumbnail-img-1.jpeg" alt="insta image">
-                                        <div class="instagram-link">
+                                        <div class="instagram-link d-flex align-items-center justify-content-center">
                                             <a href="#">Instagram</a>
                                         </div>
                                     </div>
                                     <div class="instagram-pics-cont">
                                         <img src="img/thumbnail-img-4.jpeg" alt="insta image">
-                                        <div class="instagram-link">
+                                        <div class="instagram-link d-flex align-items-center justify-content-center">
                                             <a href="#">Instagram</a>
                                         </div>
                                     </div>
@@ -760,38 +760,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-        $('#tabs li:not(:first)').addClass('inactive');
-        $('.tab-content').hide();
-        $('.tab-content:first').css('display', 'flex');
-
-        $('#tabs li').click(function() {
-            var t = $(this).attr('id');
-            if ($(this).hasClass('inactive')) { //this is the start of our condition 
-                $('#tabs li').addClass('inactive');
-                $(this).removeClass('inactive');
-
-                $('.tab-content').hide();
-                $('#' + t + 'C').css('display', 'flex');
-            }
-        });
-
-        var tabs = document.getElementsByClassName('tab-li');
-        var tabContent = document.getElementsByClassName('tab-content');
-
-        Array.prototype.forEach.call(tabs, function(tab) {
-            tab.addEventListener('click', setActiveClass);
-        });
-
-        function setActiveClass(evt) {
-            Array.prototype.forEach.call(tabs, function(tab) {
-                tab.classList.remove('active');
-            });
-            evt.currentTarget.classList.add('active');
-        }
-
-    </script>
 
 </body>
 
