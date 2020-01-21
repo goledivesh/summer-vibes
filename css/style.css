@@ -197,7 +197,7 @@ body {
 
 .lp-hero--img {
     height: calc(100vh + 100px);
-    background: url(../img/lp-hero-img-1.jpeg) no-repeat center center;
+    background: url(../img/lp-hero-img-2.jpeg) no-repeat center center;
     background-position: center;
     background-size: cover;
     padding: 0 90px;
@@ -207,11 +207,6 @@ body {
     font-size: 80px;
     color: #fff;
     font-weight: 300;
-    /*
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: #fff;
-    -webkit-text-stroke-width: 2px;
-*/
 }
 
 .hero-img-caption p {
@@ -540,6 +535,7 @@ body {
 
 .lp-slider-section-wrap {
     margin-top: -100px;
+    margin-bottom: 150px;
 }
 
 .lp-slider-img img {
@@ -692,9 +688,10 @@ body {
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: -1px;
+    bottom: 0;
     height: 3px;
     background: #000;
+    border-radius: 10px 10px 0 0;
 }
 
 .tab-container {
