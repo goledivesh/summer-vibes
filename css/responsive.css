@@ -20,12 +20,15 @@
 
 
 @media only screen and (device-width: 768px) {
-
+    .lp-hero--img {
+        padding: 0 20px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
-    .instagram-pics-cont:hover .instagram-link {
-        bottom: 0;
+
+    .lp-thumbnail-box .thumbnail-link {
+        bottom: 0px;
     }
 }
 
@@ -100,6 +103,10 @@
 
     .tab-nav li {
         width: auto;
+    }
+    
+    .lp-slider-section-wrap {
+        margin-bottom: 110px;
     }
 }
 
@@ -179,6 +186,7 @@
 
     .lp-slider-section-wrap {
         margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .owl-next,
@@ -299,9 +307,5 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         top: 0;
-    }
-
-    .lp-thumbnail-box .thumbnail-link {
-        bottom: 0px;
     }
 }
