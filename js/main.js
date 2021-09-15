@@ -41,12 +41,17 @@ $(document).ready(function () {
         center: true,
         autoplay: false,
         responsiveClass: true,
+        dots: true,
+        nav: true,
         responsive: {
             320: {
                 items: 1,
-                nav: true,
                 dots: false
-            }
+            },
+            770:{
+                items:1,
+                dots: true
+            },
         }
     });
 
